@@ -1,6 +1,11 @@
 # ZipCoords
 
-[![NuGet version (ZipCoords)](https://img.shields.io/nuget/v/ZipCoords.svg?style=flat-square)](https://www.nuget.org/packages/ZipCoords/)
+[![](https://img.shields.io/nuget/v/ZipCoords.svg)](https://www.nuget.org/packages/ZipCoords/)
+[![](https://img.shields.io/nuget/dt/ZipCoords)](https://www.nuget.org/packages/ZipCoords/)
+
+* Light-weight
+* No library dependencies
+* No external calls
 
 ### .GetCoordinates(zipcode)
 ```csharp
