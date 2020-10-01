@@ -4,11 +4,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.2</Version>
-    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <Version>1.0.3</Version>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
     <PackageId>ZipCoords</PackageId>
-    <Description>Provides latitude and longitude coordinates from ZIP codes and more.</Description>
+    <Description>Provides latitude and longitude coordinates from ZIP codes (50 states + DC) and more. Light-weight assembly. No dependencies.</Description>
     <Authors>ZC</Authors>
+    <PackageProjectUrl>https://github.com/ShereSoft/ZipCoords</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ShereSoft/ZipCoords</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <FileVersion>1.0.3.0</FileVersion>
+    <PackageTags>Zip Code, zipcode, coordinates, latitude, longitude, geo</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
