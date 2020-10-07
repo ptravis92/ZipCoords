@@ -71,7 +71,7 @@ public partial class ZipCoords
             throw new ArgumentNullException(nameof(zipcode));
         }
 
-        if (zipcode.Length != 5 || zipcode.All(Char.IsNumber))
+        if (zipcode.Length != 5 || !zipcode.All(Char.IsNumber))
         {
             throw new ArgumentException($"'{zipcode}' is not a valid ZIP code");
         }
